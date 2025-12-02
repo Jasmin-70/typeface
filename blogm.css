@@ -1,0 +1,126 @@
+
+body{
+	background-color: maroon;
+}
+
+.beigesquare-container {
+  position: relative;
+  width: 1260px;
+  height: 1300px;
+  top: 10px;
+  left: 10px;
+}
+
+.beigesquare {
+  position: absolute;
+  top: 50px;
+  left: 120px;
+  width: 130%;
+  height: 100%;
+  border: 5px solid beige;
+  padding: 20px;
+  background-color: maroon;
+}
+
+.smallsquare1 {
+	position: absolute;
+    width: 200px;
+    height: 200px; 
+    top: -30px; 
+    left: 5px;
+    border: 5px solid beige;
+ }
+
+.smallsquare2 {
+	position: absolute;
+    width: 200px;
+    height: 200px; 
+    top: -30px; 
+    left: 1660px;
+    border: 5px solid beige;
+ }
+
+.smallsquare3 {
+	position: absolute;
+    width: 200px;
+    height: 200px; 
+    top: 1270px; 
+    left: 5px;
+    border: 5px solid beige;
+ }
+
+.smallsquare4 {
+	position: absolute;
+    width: 200px;
+    height: 200px; 
+    top: 1270px; 
+    left: 1660px;
+    border: 5px solid beige;
+ }
+
+.paragraph1 {
+  position: relative;
+  top: 55%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: beige;
+  font-size: 150px;
+  z-index: 1;
+font-family: "tt-modernoir", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+
+p{
+	font-size: 35px;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	display: flex;
+	color: black;
+	font-kerning: 45;
+}
+
+.maroonsquare-container {
+  position: relative;
+  width: 1000px;
+  height: 1395px;
+  top: 10px;
+  left: 110px;
+}
+
+.maroonsquare {
+  position: absolute;
+  top: 1300px;
+  left: 90px;
+  width: 130%;
+  height: 90%;
+  border: 5px solid beige;
+  padding: 20px;
+  background-color: maroon;
+}
+
+#paragraph2{
+	position: relative;
+	top: 1420px;
+  	left: 140px;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	color: beige;
+}
+
+#paragraph3{
+	position: relative;
+	top: 1450px;
+  	left: 140px;
+	font-family: "montserrat", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: center;
+	color: beige;
+}
