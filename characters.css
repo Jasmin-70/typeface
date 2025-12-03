@@ -4,9 +4,19 @@ body{
 
 #blackrectangle {
 	width: 3260px;
-	height: 760px;
+	height: 860px;
 	background-color: black;
 	position: absolute;
+}
+
+#characters {
+	position: absolute;
+	top: 100px;
+	left: 30px;
+	bottom: 355px;
+	font-family: "tt-modernoir", sans-serif;
+	font-size: 150px;
+	color: white;
 }
 
 #whiterectangle {
@@ -20,9 +30,9 @@ body{
 	bottom: 25px;
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
- }
+}
 
- #whiterectangle:hover {
+#whiterectangle:hover {
 	color: maroon;
 }
 
@@ -53,9 +63,9 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: center;
- }
+}
 
- #whiterectangle1:hover {
+#whiterectangle1:hover {
 	color: maroon;
 }
 
@@ -71,7 +81,7 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: center;
- }
+}
 
 #whiterectangle2:hover {
 	color: maroon;
@@ -89,7 +99,7 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: center;
- }
+}
 
 #whiterectangle3:hover {
 	color: maroon;
@@ -107,9 +117,9 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: center;
- }
+}
 
- #whiterectangle4:hover {
+#whiterectangle4:hover {
 	color: maroon;
 }
 
@@ -125,9 +135,9 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: center;
- }
+}
 
- #whiterectangle5:hover {
+#whiterectangle5:hover {
 	color: maroon;
 }
 
@@ -143,9 +153,9 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: right;
- }
+}
 
- #whiterectangle6:hover {
+#whiterectangle6:hover {
 	color: maroon;
 }
 
@@ -160,9 +170,9 @@ body{
 	bottom: 25px;
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
- }
+}
 
- #whiterectangle7:hover {
+#whiterectangle7:hover {
 	color: maroon;
 }
 
@@ -178,9 +188,9 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: center;
- }
+}
 
-  #whiterectangle8:hover {
+#whiterectangle8:hover {
 	color: maroon;
 }
 
@@ -196,9 +206,9 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 	text-align: center;
- }
+}
 
-  #whiterectangle9:hover {
+#whiterectangle9:hover {
 	color: maroon;
 }
 
@@ -215,7 +225,7 @@ body{
 	font-size: 150px;
 }
 
- #whiterectangle10:hover {
+#whiterectangle10:hover {
 	color: maroon;
 }
 
@@ -233,7 +243,7 @@ body{
 	text-align: center;
 }
 
- #whiterectangle11:hover {
+#whiterectangle11:hover {
 	color: maroon;
 }
 
@@ -250,7 +260,7 @@ body{
 	font-size: 150px;
 }
 
- #whiterectangle12:hover {
+#whiterectangle12:hover {
 	color: maroon;
 }
 
@@ -266,7 +276,7 @@ body{
 	font-family: "tt-modernoir", sans-serif;
 	font-size: 150px;
 }
- #whiterectangle13:hover {
+#whiterectangle13:hover {
 	color: maroon;
 }
 
@@ -317,7 +327,7 @@ body{
 	font-size: 150px;
 }
 
- #whiterectangle16:hover {
+#whiterectangle16:hover {
 	color: maroon;
 }
 
@@ -334,7 +344,7 @@ body{
 	font-size: 150px;
 }
 
- #whiterectangle17:hover {
+#whiterectangle17:hover {
 	color: maroon;
 }
 
@@ -567,103 +577,103 @@ body{
 
 
 .beigesquare-container {
-  position: relative;
-  width: 1450px;
-  height: 1000px;
-  top: 800px;
-  left: 70px;
+ 	position: relative;
+	width: 1450px;
+	height: 1000px;
+	top: 860px;
+	left: 70px;
 }
 
 .beigesquare {
-  position: absolute;
-  top: 50px;
-  left: 90px;
-  width: 100%;
-  height: 100%;
-  background-color: beige;
+	position: absolute;
+ 	top: 50px;
+	left: 90px;
+	width: 100%;
+	height: 100%;
+	background-color: beige;
 }
 
 .paragraph6 {
-  position: absolute;
-  top: 10%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: maroon;
-  font-size: 70px;
-  z-index: 1;
-font-family: "montserrat", sans-serif;
+	position: absolute;
+	top: 10%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: maroon;
+	font-size: 70px;
+	z-index: 1;
+	font-family: "montserrat", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
 
 .paragraph1 {
-  position: absolute;
-  top: 28%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: maroon;
-  font-size: 80px;
-  z-index: 1;
-font-family: "tt-modernoir", sans-serif;
+	position: absolute;
+	top: 28%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+ 	text-align: center;
+ 	color: maroon;
+ 	font-size: 80px;
+ 	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
 
 .paragraph2 {
-  position: absolute;
-  top: 43%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: maroon;
-  font-size: 80px;
-  z-index: 1;
-font-family: "tt-modernoir", sans-serif;
+	position: absolute;
+	top: 43%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: maroon;
+	font-size: 80px;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
 	font-weight: 300;
 	font-style: normal;
 }
 
 .paragraph3 {
-  position: absolute;
-  top: 58%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: maroon;
-  font-size: 80px;
-  z-index: 1;
-font-family: "tt-modernoir", sans-serif;
+	position: absolute;
+	top: 58%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: maroon;
+	font-size: 80px;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
 	font-weight: 500;
 	font-style: normal;
 }
 
 .paragraph4 {
-  position: absolute;
-  top: 73%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  text-align: left;
-  color: maroon;
-  font-size:80px;
-  z-index: 1;
-font-family: "tt-modernoir", sans-serif;
+	position: absolute;
+ 	top: 73%;
+ 	left: 60%;
+ 	transform: translate(-50%, -50%);
+ 	text-align: left;
+ 	color: maroon;
+ 	font-size:80px;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
 	font-weight: 600;
 	font-style: normal;
 }
 
 .paragraph5 {
-  position: absolute;
-  top: 88%;
-  left: 60%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: maroon;
-  font-size: 80px;
-  z-index: 1;
-font-family: "tt-modernoir", sans-serif;
-font-weight: 700;
+ 	position: absolute;
+ 	top: 88%;
+	left: 60%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: maroon;
+	font-size: 80px;
+	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 700;
 	font-style: normal;
 }
 
@@ -863,7 +873,7 @@ font-weight: 700;
 	color: beige;
 }
 
-#paragraph9 {
+.link {
 	position: absolute;
 	top: 230%;
 	left: 50%;
@@ -874,7 +884,22 @@ font-weight: 700;
 	font-weight: 400;
 	font-style: normal;
 	justify-content: left;
-	color: black;
+	color: beige;
+}
+
+.link1 {
+	position: absolute;
+	top: 240%;
+	left: 50%;
+	bottom: 10px
+	transform: translate(-50%, 50%);
+	font-size: 45px;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: left;
+	color: beige;
+	margin-bottom: 60px;
 }
 
 
