@@ -84,6 +84,15 @@ h1 {
 	color: maroon;
 }
 
+a {
+	font-family: "tt-modernoir", sans-serif;
+	font-size: 45px;
+	font-weight: 400
+	color:maroon;
+	display: flex;
+	justify-content: cener;
+}
+
 
 
 
