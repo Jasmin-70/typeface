@@ -1,25 +1,24 @@
-
 body{
 	background-color: maroon;
 }
 
 .beigesquare-container {
-  position: relative;
-  width: 1260px;
-  height: 1300px;
-  top: 10px;
-  left: 10px;
+	position: relative;
+	width: 1260px;
+	height: 700px;
+	top: 10px;
+	left: 10px;
 }
 
 .beigesquare {
-  position: absolute;
-  top: 50px;
-  left: 120px;
-  width: 130%;
-  height: 100%;
-  border: 5px solid beige;
-  padding: 20px;
-  background-color: maroon;
+	position: absolute;
+	top: 50px;
+	left: 120px;
+	width: 130%;
+	height: 100%;
+	border: 5px solid beige;
+	padding: 20px;
+	background-color: maroon;
 }
 
 .smallsquare1 {
@@ -27,9 +26,9 @@ body{
     width: 200px;
     height: 200px; 
     top: -30px; 
-    left: 5px;
+    left: 7px;
     border: 5px solid beige;
- }
+}
 
 .smallsquare2 {
 	position: absolute;
@@ -38,38 +37,38 @@ body{
     top: -30px; 
     left: 1660px;
     border: 5px solid beige;
- }
+}
 
 .smallsquare3 {
 	position: absolute;
     width: 200px;
-    height: 200px; 
-    top: 1270px; 
-    left: 5px;
+    height: 200px;
+    top: 680px; 
+    left: 7px;
     border: 5px solid beige;
- }
+}
 
 .smallsquare4 {
 	position: absolute;
     width: 200px;
     height: 200px; 
-    top: 1270px; 
+    top: 680px; 
     left: 1660px;
     border: 5px solid beige;
- }
+}
 
 .paragraph1 {
-  position: relative;
-  top: 55%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-  color: beige;
-  font-size: 150px;
-  z-index: 1;
-font-family: "tt-modernoir", sans-serif;
-font-weight: 500;
-font-style: normal;
+	position: relative;
+	top: 55%;
+	left: 77%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: beige;
+	font-size: 150px;
+ 	z-index: 1;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 500;
+	font-style: normal;
 }
 
 
@@ -85,22 +84,22 @@ p{
 }
 
 .maroonsquare-container {
-  position: relative;
-  width: 1000px;
-  height: 1395px;
-  top: 10px;
-  left: 110px;
+	position: relative;
+	width: 1000px;
+	height: 1395px;
+	top: 10px;
+	left: 110px;
 }
 
 .maroonsquare {
-  position: absolute;
-  top: 1300px;
-  left: 90px;
-  width: 130%;
-  height: 90%;
-  border: 5px solid beige;
-  padding: 20px;
-  background-color: maroon;
+	position: absolute;
+	top: 1300px;
+	left: 90px;
+	width: 130%;
+	height: 90%;
+	border: 5px solid beige;
+	padding: 20px;
+	background-color: maroon;
 }
 
 #paragraph2{
@@ -123,4 +122,33 @@ p{
 	font-style: normal;
 	justify-content: center;
 	color: beige;
+}
+
+.link {
+	position: absolute;
+	top: 190%;
+	left: 50%;
+	bottom: 10px
+	transform: translate(-50%, 50%);
+	font-size: 45px;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: left;
+	color: beige;
+}
+
+.link1 {
+	position: absolute;
+	top: 200%;
+	left: 50%;
+	bottom: 10px
+	transform: translate(-50%, 50%);
+	font-size: 45px;
+	font-family: "tt-modernoir", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	justify-content: left;
+	color: beige;
+	margin-bottom: 60px;
 }
